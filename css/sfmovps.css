@@ -1,0 +1,61 @@
+
+#name-and-slogan h1 {
+  height: 105%;
+}
+#name-and-slogan .nav-logo-one {
+  height: 135px;
+}
+div#google_translate_element {
+  height: 1.5em;
+  overflow-y: hidden;
+}
+
+#block-nice-menus-1 ul .menu-path-1 {
+  width: 20%; }
+  #block-nice-menus-1 ul .menu-path-1.active-trail {
+    border-bottom: 5px solid #00bed5;
+  }
+#block-nice-menus-1 ul .menu-path-2 {
+  width: 11%; }
+  #block-nice-menus-1 ul .menu-path-2.active-trail {
+    border-bottom: 5px solid #ff6627;
+  }
+#block-nice-menus-1 ul .menu-path-3 {
+  width: 20%; }
+#block-nice-menus-1 ul .menu-path-4 {
+  width: 9%; }
+
+
+.ccsf-footer-top {
+  height: 230px;
+}
+.ccsf-footer-top .ccsf-footer-top-section {
+  width: 40%;
+}
+div#ccsf-footer-twitter {
+  width: 30%;
+}
+div#ccsf-footer-share {
+  width: 21%;
+}
+
+.t5-main-wrap article {
+  padding: 0 0 60px 24px;
+}
+
+.chart {
+  margin: 2em 0;
+}
+.ct-chart line.ct-bar {
+    stroke: black;
+}
+
+.kits-color-section .t3-splash-wrap {
+  height: 420px;
+  background: #c3f7f2;
+}
+
+@media only screen and (max-width: 950px)
+#name-and-slogan .nav-logo-one {
+  height: 78px;
+}
