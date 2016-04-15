@@ -9,22 +9,17 @@ div#google_translate_element {
   height: 1.5em;
   overflow-y: hidden;
 }
+#hamburger-one {
+  top:0;
+}
+#block-nice-menus-1 ul li {
+  width: auto;
+  padding: 0 3%;
+}
 
-#block-nice-menus-1 ul .menu-path-1 {
-  width: 20%; }
   #block-nice-menus-1 ul .menu-path-1.active-trail {
     border-bottom: 5px solid #00bed5;
   }
-#block-nice-menus-1 ul .menu-path-2 {
-  width: 11%; }
-  #block-nice-menus-1 ul .menu-path-2.active-trail {
-    border-bottom: 5px solid #ff6627;
-  }
-#block-nice-menus-1 ul .menu-path-3 {
-  width: 20%; }
-#block-nice-menus-1 ul .menu-path-4 {
-  width: 9%; }
-
 
 .ccsf-footer-top {
   height: 230px;
@@ -54,8 +49,101 @@ div#ccsf-footer-share {
   height: 420px;
   background: #c3f7f2;
 }
+/*
+#outreach-background-image {
+  background-image: url("../images/Canvassing-faded.JPG");
+  background-position: 100% 50%;
+  background-size: 160%;
+} */
+.page-content .note.violent-situation-note {
+  background-color: #222 !important;
+}
+.page-content .note.violent-situation-note .note-heading {
+  margin-bottom: 0;
+  color: white;
+}
+.page-content .note, .page-content .note li {
+    font-size: 15px;
+    margin: 0.75em 0;
+}
+.page-content .article-inner .files-list {
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 3em;
+}
+.page-content .article-inner .files-list li a {
+    display: block;
+    padding: 0.5em 0 0.5em 0.5em;
+    border-bottom: 1px solid #ddd
+}
+.page-content .article-inner .files-list li:first-child a {
+   border-top: 1px solid #ddd;
+   margin-top: 1em;
+}
+.files-list li a i.icon-download {
+    float: right;
+    opacity: 0;
+}
+.files-list li a:hover i.icon-download {
+    opacity: 1;
+    transition: all 0.75s;
+}
+.files-list li a:hover {
+    background-color: #f7f7f7;
+    transition: all 0.75s;
+}
+a i.icon-download:before {
+    content: '\e98e';
+    font-size: 1em;
+    font-family: "fontello";
+    margin-right: 0.5em;
+    font-style: normal;
+}
 
-@media only screen and (max-width: 950px)
-#name-and-slogan .nav-logo-one {
-  height: 78px;
+.page-content img {
+    max-width: 100%;
+    margin: 1em 0 2em 0;
+}
+
+.img-caption {
+    width: 40%;
+    float: left;
+    margin-right: 3em;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.img-caption img {
+    max-width: 100%;
+    margin-bottom: 0.5em;
+}
+
+h3, h4, .page-content .note {
+  clear: both;
+}
+.t5-main-wrap .node-single ul {
+  margin-bottom: 4em;
+}
+.t5-main-wrap .node-single ul.vps-activities {
+  margin-bottom: 1em;
+}
+.t5-main-wrap .node-single ul li {
+  margin-bottom: 1em;
+}
+.t5-main-wrap .node-single ul.files-list li {
+  margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 950px) {
+  #name-and-slogan .nav-logo-one {
+    height: 78px;
+    background-size: 100%;
+  }
+  #ccsf-footer-about {
+    display: block;
+  }
+  .img-caption {
+    width: 100%;
+  }
 }

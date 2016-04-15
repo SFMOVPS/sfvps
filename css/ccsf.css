@@ -4872,19 +4872,26 @@ body.hide-download .kit-download {
 .page-content ul li:before {
   color: #ff9900; }
 
-.page-content p.note {
+.page-content .note {
   padding: 15px 20px;
   margin: 40px 0 40px 0;
   background: #efdbff;
-  font-size: 15px; }
+ }
 
-.page-content p.note .note-heading {
+ .page-content .note, .page-content .note li {
+    font-size: 15px;
+ }
+
+.page-content .note .note-heading {
   font-size: 15px;
   line-height: 1.4;
   color: #222;
   font-weight: 600;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0.5em; }
 
+/*
 .note-heading:before {
   content: '\ecd9';
   font-size: 1em;
@@ -4893,6 +4900,7 @@ body.hide-download .kit-download {
   font-weight: 100;
   display: inline-block;
   margin: 0 7px 0 0; }
+*/
 
 .section-start .note-heading:before {
   color: #00bed5 !important; }
@@ -7543,7 +7551,7 @@ body.hide-download .kit-download {
       color: #333333 !important; }
 
 .start-color-section p.note,
-.kits-color-section p.note {
+.kits-color-section .note {
   background: #e0fbf8 !important; }
 .start-color-section .node-single a,
 .kits-color-section .node-single a {
@@ -7560,7 +7568,7 @@ body.hide-download .kit-download {
 .kits-color-section .sidebar-collapsible h2:after {
   color: #00bed5 !important; }
 
-.manage-color-section p.note {
+.manage-color-section .note {
   background: #f3fbd9 !important; }
 .manage-color-section .node-single a {
   color: #99cd00; }
@@ -7572,7 +7580,7 @@ body.hide-download .kit-download {
 .manage-color-section .sidebar-collapsible h2:after {
   color: #99cd00 !important; }
 
-.grow-color-section p.note {
+.grow-color-section .note {
   background: #f7edff !important; }
 .grow-color-section .node-single a {
   color: #b85ed5; }
