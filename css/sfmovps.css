@@ -135,6 +135,29 @@ h3, h4, .page-content .note {
 }
 
 
+p.photo-credit.photo-credit {
+    font-size: 0.8em;
+    opacity: 0.6;
+    font-style: normal;
+    margin: 0 0 1em 0;
+}
+
+#main .photo-credit a {
+    color: #888;
+}
+
+.img-caption p + .photo-credit {
+    margin-top: -0.75em;
+}
+.node-splash-image p.photo-credit {
+    float: left;
+    padding-left: 2em;
+    opacity: 0.4;
+}
+#main .node-splash-image p.photo-credit a {
+    color: #fff;
+}
+
 @media only screen and (max-width: 950px) {
   #name-and-slogan .nav-logo-one {
     height: 78px;
