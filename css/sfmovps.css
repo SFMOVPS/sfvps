@@ -158,7 +158,7 @@ h3, h4, .page-content .note {
   margin-bottom: 4em;
 }
 .t5-main-wrap .node-single ul.vps-activities {
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 .t5-main-wrap .node-single ul li {
   margin-bottom: 1em;
@@ -166,7 +166,9 @@ h3, h4, .page-content .note {
 .t5-main-wrap .node-single ul.files-list li {
   margin-bottom: 0;
 }
-
+.contact-info-header {
+    margin-top: 2em;
+}
 
 p.photo-credit.photo-credit {
     font-size: 0.8em;
