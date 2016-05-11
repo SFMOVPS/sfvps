@@ -1,3 +1,27 @@
+/* homepage image height styles */
+.backstretch {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.views-slideshow-cycle-main-frame-row-item.views-row.views-row-3.views-row-even {
+    position: relative;
+    height: 560px;
+}
+
+.view-front-page-carousel .view-content {
+    height: 560px;
+}
+
+.views-field.views-field-field-splash-image {
+    height: 560px;
+}
+
+.home-section-1-wrap {
+    height: 560px;
+}
+/* end */
 
 #name-and-slogan h1 {
   height: 105%;
