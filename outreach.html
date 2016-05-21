@@ -30,7 +30,7 @@ reports: [[December, resources/svip-reports/SVIP_Monthly-Report-December2015.pdf
 <p class="editable">These reports include details and numbers about SVIP's activities and communities served.</p>
 <h4 class="editable">Monthly Reports</h4>
 <ul class="files-list">
-{% for report in reports %}
+{% for report in page.reports %}
 <li> hey</li>
   <li><a href="{{ report[1] }}">{{ report[1] }} <i class="icon-download"></i></a></li>
 {% endfor %}
