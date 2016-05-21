@@ -13,8 +13,13 @@ monthly_reports: [[December 2015 , resources/svip-reports/SVIP_Monthly-Report-De
                   [April 2015    , resources/svip-reports/SVIP_Monthly-Report-April2015.pdf ],
                   [March 2015    , resources/svip-reports/SVIP_Monthly-Report-March2015.pdf ],
                   [February 2015 , resources/svip-reports/SVIP_Monthly-Report-February2015.pdf ],
-                  [January 2015  , resources/svip-reports/SVIP_Monthly-Report-January2015.pdf ]
+                  [January 2015  , resources/svip-reports/SVIP_Monthly-Report-January2015.pdf ],
                  ]
+quarterly_reports: [[Quarter 4 (October–December) 2015, resources/svip-reports/SVIP_Quarterly-Report-Q42015_v01.pdf ],
+                    [Quarter 3 (July–September) 2015  , resources/svip-reports/SVIP_Quarterly-Report-Q32015_20151110.pdf ],
+                    [Quarter 2 (April–June) 2015      , resources/svip-reports/SVIP_Quarterly-Report-Q22015_20150814.pdf ],
+                    [Quarter 1 (January–March) 2015   , resources/svip-reports/SVIP_Quarterly-Report-Q12015_20150615.pdf ],
+                   ]
 ---
 
 <h3 class="editable">Preventing Street Violence, A Neighborhood at a Time</h3>
@@ -45,12 +50,10 @@ monthly_reports: [[December 2015 , resources/svip-reports/SVIP_Monthly-Report-De
 {% for report in page.monthly_reports %}
   <li><a href="{{ report[1] }}">{{ report[0] }} <i class="icon-download"></i></a></li>
 {% endfor %}
-  
 </ul>
 <h4 class="editable">Quarterly Reports</h4>
 <ul class="files-list">
-  <li><a href="resources/svip-reports/SVIP_Quarterly-Report-Q42015_v01.pdf">Quarter 4 (October–December) 2015</a></li>
-  <li><a href="resources/svip-reports/SVIP_Quarterly-Report-Q32015_20151110.pdf">Quarter 3 (July–September) 2015 <i class="icon-download"></i></a></li>
-  <li><a href="resources/svip-reports/SVIP_Quarterly-Report-Q22015_20150814.pdf">Quarter 2 (April–June) 2015 <i class="icon-download"></i></a></li>
-  <li><a href="resources/svip-reports/SVIP_Quarterly-Report-Q12015_20150615.pdf">Quarter 1 (January–March) 2015 <i class="icon-download"></i></a></li>
+{% for report in page.quarterly_reports %}
+  <li><a href="{{ report[1] }}">{{ report[0] }} <i class="icon-download"></i></a></li>
+{% endfor %}
 </ul>
