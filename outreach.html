@@ -2,6 +2,7 @@
 title: Outreach
 layout: text_page
 summary: 'Together with other city departments, we manage the Street Violence Intervention Program (SVIP). The SVIP employs people to conduct street-level outreach in assigned neighborhoods. SVIP workers build relationships in their neighborhood, and work with the community there to prevent street violence.'
+reports: [[December, resources/svip-reports/SVIP_Monthly-Report-December2015.pdf]]
 ---
 
 <h3 class="editable">Preventing Street Violence, A Neighborhood at a Time</h3>
@@ -29,6 +30,9 @@ summary: 'Together with other city departments, we manage the Street Violence In
 <p class="editable">These reports include details and numbers about SVIP's activities and communities served.</p>
 <h4 class="editable">Monthly Reports</h4>
 <ul class="files-list">
+{% for report in page.reports %}
+  <li><a href="{% report[1] %}">{% report[1] %} <i class="icon-download"></i></a></li>
+{% end %}
   <li><a href="resources/svip-reports/SVIP_Monthly-Report-December2015.pdf">December 2015 <i class="icon-download"></i></a></li>
   <li><a href="resources/svip-reports/SVIP_Monthly-Report-Nov2015_v01_20151211.pdf">November 2015 <i class="icon-download"></i></a></li>
   <li><a href="resources/svip-reports/SVIP_Monthly-Report-October2015.pdf">October 2015 <i class="icon-download"></i></a></li>
