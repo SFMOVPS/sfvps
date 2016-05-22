@@ -94,17 +94,17 @@ layout: default
       <div class="inside panels-flexible-row-inside panels-flexible-row-t5-wrap-8-inside panels-flexible-row-inside-last clearfix">
         <div class="panels-flexible-region panels-flexible-region-t5-wrap-featured_items panels-flexible-region-first panels-flexible-region-last t5-featured featured">
           <div class="inside panels-flexible-region-inside panels-flexible-region-t5-wrap-featured_items-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
-             {% for partner in page.partners %}
+             {% for block in page.blocks %}
              <div class="panel-pane pane-node" style="height: 214px;">
               <article class="node-2573 node node-online-resource node-teaser clearfix" about="/node/2573" typeof="sioc:Item foaf:Document">
                 <div class="resource-teaser-mode manage-color-section">
                   <div class="resource-teaser-title">
-                    <a href="{{ partner[2] }}"><h3>{{ partner[0] }}</h3></a>
+                    <a href="{{ block[2] }}"><h3>{{ block[0] }}</h3></a>
                   </div>
-                  <div class="resource-teaser-description"><p>{{ partner[1] }}</p></div>
+                  <div class="resource-teaser-description"><p>{{ block[1] }}</p></div>
                   <div class="resource-teaser-actions">
                     <a href="{{ partner[2] }}">
-                    {% if partner[3] == "file" %}
+                    {% if block[3] == "file" %}
                       <p class="doc-teaser-download-cta tool-tip" original-title="Download Document"><span>Download</span></p></a>
                     {% else %}
                       <p class="resource-link-cta tool-tip" original-title="View Department"><span>View</span></p></a>
