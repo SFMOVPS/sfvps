@@ -34,11 +34,15 @@ layout: default
                 <div class="panels-flexible-region panels-flexible-region-t5-wrap-center panels-flexible-region-first panels-flexible-region-last t5-menu">
                   <div class="inside panels-flexible-region-inside panels-flexible-region-t5-wrap-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
                     <div class="panel-pane pane-block pane-menu-menu-grow-location-options-men">
-                      <!--
-                      <h2 class="pane-title">Coordination</h2>
-                      <ul class="menu dpi-edit" style="display: block;" data-900-id="ebdxuf"><li class="menu__item is-leaf first leaf dhtml-menu" id="dhtml_menu-903"><a href="svrt.html" title="" class="menu__link" data-900-id="6pw2hu">Street Violence Response Team</a></li>
-                      -->
-
+                      {% if page.left_nav_links %}
+                      <!-- <h2 class="pane-title">Coordination</h2> -->
+                      <ul class="menu dpi-edit" style="display: block;">
+                          {% for page in page.left_nav_links %}
+                          <li class="menu__item is-leaf first leaf dhtml-menu" id="dhtml_menu-903">
+                              <a href={{ page[1] }} lass="menu__link">{{ page[0] }}</a>
+                          </li>
+                          {% endfor %}
+                      {% endif %}
                   </div>
                 </div>
               </div>
