@@ -2,7 +2,9 @@
 title: Policy
 layout: text_page
 summary: With the “sanctity of life” at the forefront of our work, we strive to implement innovative violence prevention and public safety policies that highlight San Francisco’s leadership on key issues, while creating a safer community for all residents and visitors. 
-blocks: 
+reports: [[December 2015 , resources/svip-reports/SVIP_Monthly-Report-December2015.pdf ],
+                  [November 2015 , resources/svip-reports/SVIP_Monthly-Report-Nov2015_v01_20151211.pdf ],
+                 ]
 ---
 
 <h3 class="editable">Public Safety through Policy Reform </h3>
@@ -14,3 +16,12 @@ blocks:
 <p class="editable">Deeply disturbed by gun violence, Mayor Edwin M. Lee is leading the nation by developing San Francisco’s Socially Responsible Purchasing Model. In January 2016, Mayor Edwin M. Lee directed city stakeholders to administratively reform San Francisco’s purchasing protocol to prioritize the procurement of firearms and ammunition from socially responsible manufacturers and dealers. This model will require all potential vendors of firearms and ammunition to demonstrate their commitment to best practices.</p>
 
 <p class="editable">For additional information regarding Mayor Edwin M. Lee’s violence prevention and public safety policy work, see the documents below.</p>
+
+<h3 class="editable">Further Reading</h3>
+<p class="editable">These reports ...</p>
+<h4 class="editable">Reports</h4>
+<ul class="files-list">
+{% for report in page.reports %}
+  <li><a href="{{ report[1] }}">{{ report[0] }} <i class="icon-download"></i></a></li>
+{% endfor %}
+</ul>
