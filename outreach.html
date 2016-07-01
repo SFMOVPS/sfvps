@@ -36,6 +36,12 @@ quarterly_reports:
     - resources/svip-reports/SVIP_Quarterly-Report-Q22015_20150814.pdf
   - - Quarter 1 (January–March) 2015
     - 'https://d1qmdf3vop2l07.cloudfront.net/early-sand1.cloudvent.net/raw/resources/svip-reports/svip quarter 1 2015 report.pdf'
+quarterly_plans:
+  - - Plan 1
+    -  link
+  - - Plan 2
+    - link
+  
 ---
 
 <h3 class="editable">Preventing Street Violence, A Neighborhood at a Time</h3>
@@ -114,15 +120,24 @@ quarterly_reports:
 
 <h3 class="editable">Further Reading</h3>
 <p class="editable">These reports include details and numbers about SVIP's activities and communities served.</p>
+
 <h4 class="editable">Monthly Reports</h4>
 <ul class="files-list">
 {% for report in page.monthly_reports %}
   <li><a href="{{ report[1] }}">{{ report[0] }} <i class="icon-download"></i></a></li>
 {% endfor %}
 </ul>
+
 <h4 class="editable">Quarterly Reports</h4>
 <ul class="files-list">
 {% for report in page.quarterly_reports %}
   <li><a href="{{ report[1] }}">{{ report[0] }} <i class="icon-download"></i></a></li>
+{% endfor %}
+</ul>
+
+<h4 class="editable">Quarterly Plans</h4>
+<ul class="files-list">
+{% for plan in page.quarterly_plans %}
+  <li><a href="{{ plan[1] }}">{{ plan[0] }} <i class="icon-download"></i></a></li>
 {% endfor %}
 </ul>
