@@ -125,20 +125,20 @@ quarterly_plans:
 <h4 class="editable">Monthly Reports</h4>
 <ul class="files-list">
 {% for report in page.monthly_reports %}
-  <li><a href="{{ report[1] }}">{{ report[0] }} <i class="icon-download"></i></a></li>
+  <li><a href="{{ report[1] }}" class="cms-no-rewrite">{{ report[0] }} <i class="icon-download"></i></a></li>
 {% endfor %}
 </ul>
 
 <h4 class="editable">Quarterly Reports</h4>
 <ul class="files-list">
 {% for report in page.quarterly_reports %}
-  <li><a href="{{ report[1] }}">{{ report[0] }} <i class="icon-download"></i></a></li>
+  <li><a href="{{ report[1] }}" class="cms-no-rewrite">{{ report[0] }} <i class="icon-download"></i></a></li>
 {% endfor %}
 </ul>
 
 <h4 class="editable">Quarterly Plans</h4>
 <ul class="files-list">
 {% for plan in page.quarterly_plans %}
-  <li><a href="{{ plan[1] }}">{{ plan[0] }} <i class="icon-download"></i></a></li>
+  <li><a href="{{ plan[1] }}" class="cms-no-rewrite">{{ plan[0] }} <i class="icon-download"></i></a></li>
 {% endfor %}
 </ul>
