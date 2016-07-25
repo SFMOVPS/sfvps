@@ -21,14 +21,12 @@
 .home-section-1-wrap {
     height: 520px;
 }
-.views-field.views-field-field-subtext-normal {
-    margin: 0;
-}
 .views-field.views-field-field-subtext-bold {
-    padding-top: 490px;
+    padding-top: 450px;
 }
 .views-field.views-field-field-subtext-normal .photo_author {
     opacity: 0.8;
+    font-size: 0.8em;
 }
 /* end */
 /* homepage grid */
