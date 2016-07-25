@@ -27,7 +27,7 @@
 .views-field.views-field-field-subtext-bold {
     padding-top: 490px;
 }
-.views-field.views-field-field-subtext-normal {
+.views-field.views-field-field-subtext-normal .photo_author {
     opacity: 0.8;
 }
 /* end */
