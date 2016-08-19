@@ -1,13 +1,9 @@
 <div class="homepage-image">
     <img src="images/homepage/homepage-photo.jpg">
-    <div class="views-field views-field-field-subtext-bold">
-        <div class="field-content carousel-subtext-bold">
-            {{ page.photo_caption_title }}
-        </div>
+    <div class="homepage-caption-title">
+        {{ page.photo_caption_title }}
     </div>
-    <div class="views-field views-field-field-subtext-normal">
-        <div class="field-content carousel-subtext-normal">
-            {{page.photo_caption_text}} <span class="photo_author">Photo by {{ page.photo_author }}</span>
-        </div>
+    <div class="homepage-caption-author">
+        {{page.photo_caption_text}} <span class="photo_author">Photo by {{ page.photo_author }}</span>
     </div>
 </div>
