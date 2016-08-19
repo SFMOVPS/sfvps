@@ -1,65 +1,13 @@
-
-    <div class="panel-flexible-inside panels-flexible-3-inside">
-        <div class=
-        "panels-flexible-row panels-flexible-row-3-1 panels-flexible-row-first clearfix home-section-1-wrap">
-        <div class=
-        "inside panels-flexible-row-inside panels-flexible-row-3-1-inside panels-flexible-row-inside-first clearfix">
-            <div class=
-            "panels-flexible-region panels-flexible-region-3-splash_image panels-flexible-region-first panels-flexible-region-last home-section-1">
-                <div class=
-                "inside panels-flexible-region-inside panels-flexible-region-3-splash_image-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
-                    <div class=
-                    "panel-pane pane-views pane-front-page-carousel">
-                            <div class=
-                            "view view-front-page-carousel view-id-front_page_carousel view-display-id-default view-dom-id-85211e844c4ec87eda0bec148f2509f3">
-                            <div class="view-content">
-                                    <div class="skin-default">
-                                        <div class=
-                                        "views_slideshow_cycle_main views_slideshow_main viewsSlideshowCycle-processed"
-                                        id=
-                                        "views_slideshow_cycle_main_front_page_carousel-default">
-                                        <div class=
-                                        "views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section"
-                                            id=
-                                            "views_slideshow_cycle_teaser_section_front_page_carousel-default">
-                                                <div class=
-                                                "views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even"
-                                                id=
-                                                "views_slideshow_cycle_div_front_page_carousel-default_3">
-                                                <div class=
-                                                "views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even">
-                                                    <div class=
-                                                    "views-field views-field-field-splash-image">
-                                                        <div class="field-content">
-                                                            <img src="images/homepage/mayor-pic-wide-3.jpg" typeof="foaf:Image">
-                                                        </div>
-
-                                                            <div class="backstretch">
-                                                                <img src="images/homepage/homepage-photo.jpg">
-                                                            </div>
-                                                        </div>
-
-
-                                                        <div class="views-field views-field-field-subtext-bold">
-                                                            <div class=
-                                                        "field-content carousel-subtext-bold">
-                                                            {{ page.photo_caption_title }}
-                                                            </div>
-                                                        </div>
-                                                        <div class="views-field views-field-field-subtext-normal">
-                                                            <div class="field-content carousel-subtext-normal">
-                                                              {{page.photo_caption_text}} <span class="photo_author">Photo by {{ page.photo_author }}</span>
-                                                            </div>
-                                                        </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="homepage-image">
+    <img src="images/homepage/homepage-photo.jpg">
+    <div class="views-field views-field-field-subtext-bold">
+        <div class="field-content carousel-subtext-bold">
+            {{ page.photo_caption_title }}
         </div>
     </div>
+    <div class="views-field views-field-field-subtext-normal">
+        <div class="field-content carousel-subtext-normal">
+            {{page.photo_caption_text}} <span class="photo_author">Photo by {{ page.photo_author }}</span>
+        </div>
+    </div>
+</div>
