@@ -6,6 +6,7 @@
 .homepage-image-caption {
     position: absolute;
     bottom:  3em;
+    width: 100%;
 }
 .homepage-image-caption-text {
     width: 1074px;
