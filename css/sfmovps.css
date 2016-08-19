@@ -7,6 +7,10 @@
     position: absolute;
     bottom:  3em;
 }
+.homepage-image-caption-text {
+    width: 1074px;
+    margin: 0 auto;
+}
 /* end */
 /* homepage grid */
 .home-section-3 .panel-pane {
