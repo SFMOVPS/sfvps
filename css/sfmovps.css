@@ -38,7 +38,10 @@
 /* end */
 /* homepage grid */
 .home-section-3 .panel-pane {
-    width: 29em;
+    width: 44%;
+}
+.home-section-3 .panel-pane:nth-child(3){
+    clear: both; /* make a row */
 }
 .inside.panels-flexible-region-inside.panels-flexible-region-3-three_sections-inside.panels-flexible-region-inside-first.panels-flexible-region-inside-last {
     margin-right: -2.666%%;
