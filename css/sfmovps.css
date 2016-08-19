@@ -5,12 +5,21 @@
 }
 .homepage-image-caption {
     position: absolute;
-    bottom:  3em;
+    bottom:  2em;
     width: 100%;
 }
 .homepage-image-caption-text {
     width: 1074px;
     margin: 0 auto;
+}
+.homepage-image-caption-title {
+    font-weight: bold;
+}
+
+.homepage-image-caption-author {
+    opacity: 0.8;
+    font-size: 0.85em;
+    margin-top: 0.5em;
 }
 /* end */
 /* homepage grid */
