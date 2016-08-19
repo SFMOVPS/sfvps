@@ -3,7 +3,8 @@
     position: relative;
     color: #fff;
 }
-.homepage-image-wrapper img {
+.homepage-image-wrapper img,
+.home-section-6 .field-name-field-splash-image img{
     width: 100%;
 }
 .homepage-image-caption {
