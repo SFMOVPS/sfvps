@@ -9,7 +9,6 @@
     position: relative;
     height: 510px;
 }
-
 .view-front-page-carousel .view-content {
     height: 510px;
 }
@@ -218,4 +217,34 @@ p.photo-credit.photo-credit {
   .img-caption {
     width: 100%;
   }
+  /* homepage image height styles */
+    .backstretch {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .views-slideshow-cycle-main-frame-row-item.views-row.views-row-3.views-row-even {
+        position: relative;
+        height: 200px;
+    }
+    .view-front-page-carousel .view-content {
+        height: 200px;
+    }
+    
+    .views-field.views-field-field-splash-image {
+        height: 200px;
+    }
+    
+    .home-section-1-wrap {
+        height: 200px;
+    }
+    .views-field.views-field-field-subtext-bold {
+        padding-top: 1400px;
+    }
+    .views-field.views-field-field-subtext-normal .photo_author {
+        opacity: 0.8;
+        font-size: 0.8em;
+    }
+/* end */
 }
