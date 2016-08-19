@@ -243,4 +243,9 @@ p.photo-credit.photo-credit {
     .home-section-3 .panel-pane .field-name-body, .home-section-3 .panel-pane .field-name-field-heading {
         width: 95%;
     }
+    .home-section-3 .panel-pane .field-name-field-link {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
 }
