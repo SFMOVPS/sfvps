@@ -233,7 +233,6 @@ p.photo-credit.photo-credit {
         overflow:hidden;
     }
     .homepage-image-wrapper img {
-        width: 140px;
-    }
+        width: 140%;
     }
 }
