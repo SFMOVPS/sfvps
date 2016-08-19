@@ -246,5 +246,8 @@ p.photo-credit.photo-credit {
         opacity: 0.8;
         font-size: 0.8em;
     }
-/* end */
+    /* homepage grid styles */
+    .home-section-3 .panel-pane {
+        width: 45em;
+    }
 }
