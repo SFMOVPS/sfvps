@@ -237,7 +237,10 @@ p.photo-credit.photo-credit {
         width: 140%;
     }
     .home-section-3 .panel-pane {
-        width: 27%;
+        width: 100%;
         text-align: center;
+    }
+    .home-section-3 .panel-pane .field-name-body, .home-section-3 .panel-pane .field-name-field-heading {
+        width: 95%;
     }
 }
