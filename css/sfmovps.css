@@ -236,6 +236,8 @@ p.photo-credit.photo-credit {
     .homepage-image-wrapper img {
         width: 140%;
     }
+}
+@media only screen and (max-width: 600px) {
     .home-section-3 .panel-pane {
         width: 100%;
         text-align: center;
