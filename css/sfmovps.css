@@ -1,9 +1,9 @@
 /* homepage image height styles */
-.homepage-image {
+.homepage-image-wrapper {
     position: relative;
     color: #fff;
 }
-.homepage-image img {
+.homepage-image-wrapper img {
     width: 100%;
 }
 .homepage-image-caption {
@@ -227,4 +227,13 @@ p.photo-credit.photo-credit {
   .homepage-image-caption-text {
       width: 95%;
   }
+}
+@media only screen and (max-width: 730px) {
+    .homepage-image-wrapper {
+        overflow:hidden;
+    }
+    .homepage-image-wrapper img {
+        width: 140px;
+    }
+    }
 }
