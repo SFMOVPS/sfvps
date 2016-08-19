@@ -1468,7 +1468,7 @@ a {
   .views-field-field-subtext-normal {
     display: none; }
 
-  .home-section-3 .panel-pane {
+  /*.home-section-3 .panel-pane {
     float: none;
     width: 310px;
     margin: 0 auto 30px auto;
@@ -1492,7 +1492,7 @@ a {
       float: left;
       width: 240px;
       margin: 0 0 0 70px; }
-
+*/
   .home-section-5 .panel-pane .node-single {
     margin: 0 auto 20px auto; }
   .home-section-5 .panel-pane .node-single-with-image {
