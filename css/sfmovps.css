@@ -236,4 +236,8 @@ p.photo-credit.photo-credit {
     .homepage-image-wrapper img {
         width: 140%;
     }
+    .home-section-3 .panel-pane {
+        width: 27%;
+        text-align: center;
+    }
 }
