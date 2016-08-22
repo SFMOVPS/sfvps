@@ -259,4 +259,15 @@ p.photo-credit.photo-credit {
         margin: 0;
         float: none;
     }
+    .ccsf-footer-top .footer-inner {
+        width: 90%;
+    }
+    
+    .ccsf-footer-middle .footer-inner {
+        width: 90%;
+    }
+    
+    #ccsf-copyright {
+        width: 90% !important;
+    }
 }
