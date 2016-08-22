@@ -47,6 +47,12 @@
     margin-right: -2.666%%;
 }
 
+/* brian quote */
+.brian-quote-section {
+    background-image: url("images/brian.jpg");
+    background-size: cover;
+    background-position: 70% 70%;   
+}
 
 #name-and-slogan h1 {
   height: 105%;
